@@ -571,6 +571,7 @@ form {
   }
   .blocimg {
     height: 25vh;
+    padding-block: 25px;
   }
   .blocimg img {
     width: 60vw;
@@ -580,8 +581,9 @@ form {
     width: 60vw;
   }
   .card-txt-a {
-    width: 80vw;
+    width: 60vw;
     height: 9vw;
+
   }
   .footer {
     flex-direction: column;
