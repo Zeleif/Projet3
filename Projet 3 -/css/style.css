@@ -428,6 +428,7 @@ form {
   }
   .card-txt-a {
     width: 19vw;
+    height: 7vw;
   }
   .card-title-act {
     display: flex;
@@ -457,6 +458,7 @@ form {
   nav {
     height: 120px;
     margin: 0;
+    flex-direction: column-reverse;
   }
   nav li {
     display: grid;
@@ -464,8 +466,8 @@ form {
     grid-gap: 2.5rem;
   }
   nav li:hover {
-    border-top: none;
     border-bottom: solid 2px #0065fc;
+    border-top: solid 2px transparent;
   }
   .titre {
     padding-left: 10px;
