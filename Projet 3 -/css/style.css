@@ -422,15 +422,16 @@ form {
   .container-activites {
     width: 90vw;
   }
+  .blocimg {
+    padding: 0;
+  }
   .blocimg img {
-    width: 19vw;
     height: 20vw;
   }
   .card-content-activites {
     display: block;
   }
   .card-txt-a {
-    width: 19vw;
     height: 7vw;
   }
   .card-title-act {
