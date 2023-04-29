@@ -290,17 +290,17 @@ form {
   object-fit: cover;
 }
 .card-content-activites {
-  display: flex;
-  justify-content: start;
-  gap: 10px;
+  display: block;
+  margin-top: 0;
 }
 .card-txt-a {
+  display: flex;
   width: 20vw;
   border-radius: 0 0 20px 20px;
   box-shadow: 0px 5px 6px 3px #f2f2f2de;
 }
-.card-title-act h3 {
-  margin-top: 15px;
+.card-title-act  {
+  margin-top: 10px;
   font-size: 16px;
   font-weight: 700;
 }
@@ -426,6 +426,9 @@ form {
     width: 19vw;
     height: 20vw;
   }
+  .card-content-activites {
+    display: block;
+  }
   .card-txt-a {
     width: 19vw;
     height: 7vw;
@@ -433,6 +436,11 @@ form {
   .card-title-act {
     display: flex;
     flex-direction: column;
+  }
+  .card-title-act h3 {
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: 600;
   }
   .footer {
     width: 90%;
