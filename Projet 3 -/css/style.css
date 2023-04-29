@@ -309,7 +309,7 @@ form {
 }
 /****** Populaires ***********/
 .populaires {
-  width: 32%;
+  width: 33%;
 }
 .populaires-title {
   display: flex;
@@ -436,11 +436,6 @@ form {
   .card-title-act {
     display: flex;
     flex-direction: column;
-  }
-  .card-title-act h3 {
-    margin-top: 5px;
-    font-size: 15px;
-    font-weight: 600;
   }
   .footer {
     width: 90%;
